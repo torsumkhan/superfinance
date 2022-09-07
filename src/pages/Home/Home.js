@@ -1,9 +1,14 @@
-import React, { useContext } from "react";
+import React from "react";
+import TransactionForm from "./TransactionForn";
+import "./home.css";
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="container">
+      <div className="content">transaction list</div>
+      <div className="sidebar">
+        <TransactionForm />
+      </div>
     </div>
   );
 }

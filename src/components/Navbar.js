@@ -13,6 +13,7 @@ function Navbar() {
     <StyledContainer>
       <ul>
         <li>Super Finance</li>
+
         {!user && (
           <>
             <li>
